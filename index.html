@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PANEL</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <!-- header -->
+
+    <header >
+        <!-- main navbar -->
+        <div class="main-navbar">
+            <div class="container">
+                <div class="row align-items-center pt-10 pb-10">
+                    <div class="col-6 d-flex  ">
+                        <div class="left-nav justify-content-between d-flex ">
+                            <div class="col-2 justify-content-center align-items-center d-flex">
+                                <a href="#">
+                                    <i class="fa-solid fa-bars color-w" width="100%"></i>
+                                </a>
+                            </div>
+                            <div class="col-10">
+                                <a href="index.html" class="d-flex">
+                                    <div class="col-2">
+                                        <img src="images/logo-light.svg" alt="" width="100%">
+                                    </div>
+                                    <div class="col-10 pl-10">
+                                        <span class="color-w font-18">
+                                            DigiClinic
+                                        </span>
+                                        <p class="font-11 color-w">AdminUIUX HTML template</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-7">
+                            <div>
+                                <ul class="d-flex">
+                                    <li class=" pr-10">
+                                        <div class="border bg-text">
+                                            <a href="#" class="color-w">
+                                                Home
+                                            </a>
+                                        </div>
+
+                                    </li>
+                                    <!-- dropdown -->
+                                    <li class=" pr-5">
+                                        <div class="border dropdown dropdown-1 pos-rel left-icon">
+                                            <a href="#" class="color-w ">
+                                                Pages
+                                                <i class="fa-solid fa-caret-down"></i>
+                                            </a>
+
+                                            <div class="dropdown-menu dropdown-menu-1 d-none">
+                                                <div>
+                                                    <a class="dropdown-item" href="#">Clinic Profile</a>
+                                                </div>
+                                                <div>
+                                                    <a class="dropdown-item" href="#">Branding</a>
+                                                </div>
+                                                <div>
+                                                    <a class="dropdown-item" href="#">Users</a>
+                                                </div>
+                                                <div>
+                                                    <hr class="dropdown-divider ">
+                                                </div>
+                                                <div>
+                                                    <a class="dropdown-item" href="#"> Help Center</a>
+                                                </div>
+                                                <div>
+                                                    <a class="dropdown-item" href="#"> Onboarding</a>
+                                                </div>
+                                                <div>
+                                                    <a class="dropdown-item" href="#"> All Pages</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="pr-10">
+                                        <div class="border left-icon">
+                                            <a href="#" class="color-w ">
+                                                About
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="right-nav d-flex justify-content-end">
+                            <div class="col-4 d-flex">
+                                <div class="icon-group d-flex col-12 ">
+                                    <div class="col-2 ">
+                                        <button class="w-100 icon">
+                                            <i class="fa-solid fa-magnifying-glass " style="color: #9ca5b4;"></i>
+                                        </button>
+                                    </div>
+                                    <div class="col-8">
+                                        <input class="form-control  border-0 bg-none" type="search"
+                                            placeholder="Type something here...">
+                                    </div>
+                                    <!-- dropdown-2 -->
+                                    <div class="col-2 dropdown dropdown-2  pos-rel">
+                                        <a href="#"
+                                            class="w-100 icon d-flex align-items-center justify-content-center icon-menu">
+                                            <i class="fa-duotone fa-solid fa-sliders fa-rotate-270"
+                                                style="--fa-primary-color: #788397; --fa-secondary-color: #8a9999;"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-2 rigth-down right-icon-2 d-none">
+                                            <div class="d-flex pr-40">
+                                                <div class="pr-10">
+                                                    <a class="dropdown-item" href="#">all</a>
+                                                </div>
+                                                <div class="pr-10">
+                                                    <a class="dropdown-item" href="#">orders</a>
+                                                </div>
+                                                <div class="pr-10">
+                                                    <a class="dropdown-item" href="#">contact</a>
+                                                </div>
+                                            </div>
+                                            <div class="p-15 right-icon right-icon-5 right-icon-3 right-icon-4">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="row justify-content-between">
+                                                        <div class="">Search apps</div>
+                                                        <div class="">
+                                                            <label class="toggle-switch">
+                                                                <input type="checkbox" />
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="p-15 pt-0 right-icon right-icon-5 right-icon-3 right-icon-4">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="row justify-content-between">
+                                                        <div class="">Include Pages</div>
+                                                        <div class="">
+                                                            <label class="toggle-switch">
+                                                                <input type="checkbox" />
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="p-15 pt-0 right-icon right-icon-5 right-icon-3 right-icon-4">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="row justify-content-between">
+                                                        <div class="">Internet resource</div>
+                                                        <div class="">
+                                                            <label class="toggle-switch">
+                                                                <input type="checkbox" />
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="p-15 pt-0 right-icon right-icon-5 right-icon-3 right-icon-4">
+                                                <a class="dropdown-item" href="#">
+                                                    <div class="row justify-content-between">
+                                                        <div class="">News and Blogs</div>
+                                                        <div class="">
+                                                            <label class="toggle-switch">
+                                                                <input type="checkbox" />
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="pl-20 pr-20 pt-0 ">
+                                                <a class="" href="#">
+                                                    <div class="row justify-content-between">
+                                                        <div class="right-icon right-icon-5 right-icon-3 right-icon-4">
+                                                            Reset
+                                                        </div>
+                                                        <div
+                                                            class=" btn-nav color-w d-flex align-items-center justify-content-center">
+                                                            Apply
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- right-icon -->
+                            <div class="d-flex">
+                                <div class="p-1">
+                                    <div>
+                                        <div class="right-icon moon">
+                                            <a href="#" class="icon">
+                                                <i class="fa-regular fa-moon"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- dropdown-3 -->
+                                <div class="p-1 ">
+                                    <div>
+                                        <div class="right-icon dropdown dropdown-3  pos-rel">
+                                            <a href="#" class="icon">
+                                                <i class="fa-solid fa-table-cells-large"></i>
+                                            </a>
+                                            <div
+                                                class="dropdown-menu dropdown-menu-3 rigth-down p-40 right-icon-2 d-none">
+                                                <div
+                                                    class=" text-center right-icon right-icon-3 right-icon-4 right-icon-5 color-gray">
+                                                    <div>
+                                                        <span>
+                                                            Applications
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                            Make your app innovative
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div
+                                                        class="col-4 p-15 right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                        <a class="dropdown-item text-center" href="#">
+                                                            <div class="text-center">
+                                                                <i class="fa-solid fa-building-columns"></i>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div>
+                                                                    <span>
+                                                                        Finance
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>
+                                                                        Accounting
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="col-4 p-15 right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                        <a class="dropdown-item text-center" href="#">
+                                                            <div class="text-center">
+                                                                <i class="fa-solid fa-globe"></i>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div>
+                                                                    <span>
+                                                                        Finance
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>
+                                                                        Accounting
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="col-4 p-15 right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                        <a class="dropdown-item text-center" href="#">
+                                                            <div class="text-center">
+                                                                <i class="fa-solid fa-cube"></i>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div>
+                                                                    <span>
+                                                                        Finance
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>
+                                                                        Accounting
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="col-4 p-15 right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                        <a class="dropdown-item text-center" href="#">
+                                                            <div class="text-center">
+                                                                <i class="fa-solid fa-folder"></i>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div>
+                                                                    <span>
+                                                                        Finance
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>
+                                                                        Accounting
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="col-4 p-15 right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                        <a class="dropdown-item text-center" href="#">
+                                                            <div class="text-center">
+                                                                <i class="fa-solid fa-user-group"></i>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div>
+                                                                    <span>
+                                                                        Finance
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>
+                                                                        Accounting
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class="col-4 p-15 right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                        <a class="dropdown-item text-center" href="#">
+                                                            <div class="text-center">
+                                                                <i class="fa-solid fa-book-bookmark"></i>
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div>
+                                                                    <span>
+                                                                        Finance
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <span>
+                                                                        Accounting
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div
+                                                        class=" col-12 d-flex align-items-center justify-content-center right-icon right-icon-3  right-icon-5">
+                                                        <a href="#" class="text-center  dropdown-item">
+                                                            <div class="text-center">
+                                                                View all
+                                                                <i class="fa-solid fa-arrow-right"></i>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- dropdown-4 -->
+                                <div class="p-1">
+                                    <div>
+                                        <div class="right-icon dropdown dropdown-4  pos-rel">
+                                            <a href="#" class="icon">
+                                                <i class="fa-solid fa-language fa-rotate-90"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-4 rigth-down d-none">
+                                                <div class="right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                    <a class="dropdown-item" href="#" data-value="EN">EN - English</a>
+                                                </div>
+                                                <div class="right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                    <a class="dropdown-item" href="#" data-value="FR">FR - French</a>
+                                                </div>
+                                                <div class="right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                    <a class="dropdown-item" href="#" data-value="CH">CH - Chinese</a>
+                                                </div>
+                                                <div class="right-icon right-icon-3 right-icon-5 right-icon-4">
+                                                    <a class="dropdown-item" href="#" data-value="HI"> HI - Hindi</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-1">
+                                    <div>
+                                        <div class="right-icon">
+                                            <a href="#" class="icon">
+                                                <i class="fa-regular fa-bell"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Profile -->
+                            <div class="pr-10 ">
+                                <div class="profile-frame  p-5">
+                                    <a href="#" class="d-flex align-items-center">
+                                        <div class="avatar pr-10">
+                                            <div class="p-1">
+                                                <img src="images/photo.jpeg" alt="" class="photo ">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <span class="color-w">
+                                                AdminUIUX
+                                                <span>
+                                                    <i class="fa-solid fa-caret-down"></i>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+
+    <main>
+        <!-- side bar -->
+        <div class="side-bar ">
+            <div class="d-flex align-items-center justify-content-between pl-20 pr-20 pt-10 pb-10  ">
+                <div>
+                    <span class="color-w font-18">
+                        Main Menu
+                    </span>
+                </div>
+                <div class="right-icon-3 right-icon-4 right-icon ">
+                    <a href="#">
+                        <span>
+                            <i class="fa-regular fa-user"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Dashboard
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="d-flex align-items-center justify-content-between p-15 pl-30 pr-30 right-icon right-icon-3 side-up">
+                <div class="d-flex align-items-center">
+                    <div class="pr-10">
+                        <a href="# " class="font-20">
+                            <i class="fa-regular fa-calendar"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>
+                                Schedule
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-sort-down"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- side-down -->
+            <div class="text-center side-down p-5 pl-20 pr-20 d-none ">
+                <div class="icon-group ">
+                    <div class="p-5 d-flex right-icon right-icon-3 right-icon-4">
+                        <div class="pr-10">
+                            <a href="# ">
+                                <i class="fa-regular fa-calendar"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Schedule Calendar
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-5 d-flex right-icon right-icon-3 right-icon-4">
+                        <div class="pr-10">
+                            <a href="# ">
+                                <i class="fa-solid fa-table-list"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Schedule List
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-5 d-flex right-icon right-icon-3 right-icon-4">
+                        <div class="pr-10">
+                            <a href="# ">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Schedule Progress
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-5 d-flex right-icon right-icon-3 right-icon-4">
+                        <div class="pr-10">
+                            <a href="# ">
+                                <i class="fa-solid fa-user-check"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Schedule Staff
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-user-group"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Patients
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Statistics
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            My Publication
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-money-bill"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Billings
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="d-flex align-items-center justify-content-between p-15 pl-30 pr-30 right-icon right-icon-3 side-up">
+                <div class="d-flex align-items-center">
+                    <div class="pr-10">
+                        <a href="# " class="font-20">
+                            <i class="fa-solid fa-folder"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>
+                                Documents
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-sort-down"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- side-down -->
+            <div class="text-center side-down p-5 pl-20 pr-20 d-none">
+                <div class="icon-group ">
+                    <div class="p-5 d-flex right-icon right-icon-3 right-icon-4">
+                        <div class="pr-10">
+                            <a href="# ">
+                                <i class="fa-solid fa-user-group"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Patient Documents
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-5 d-flex right-icon right-icon-3 right-icon-4">
+                        <div class="pr-10">
+                            <a href="# ">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Staff Documents
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Pages
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-circle-radiation"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Personalize ❤️
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-brands fa-intercom"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Components
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-20  ">
+                <div>
+                    <span class="color-w font-18">
+                        Quick Links
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between p-15 pl-30 pr-30  right-icon-5"
+                style="background-color: rgba(var(--g-bg-color-rgb),.15);">
+                <div class="right-icon-3 right-icon-4 right-icon ">
+                    <a href="#">
+                        <span>
+                            <i class="fa-regular fa-user"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="right-icon-3 right-icon-4 right-icon ">
+                    <a href="#">
+                        <span>
+                            <i class="fa-regular fa-calendar"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="right-icon-3 right-icon-4 right-icon ">
+                    <a href="#">
+                        <span>
+                            <i class="fa-solid fa-inbox"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="right-icon-3 right-icon-4 right-icon ">
+                    <a href="#">
+                        <span>
+                            <i class="fa-solid fa-circle-question"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="pt-20"></div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3 ">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-regular fa-comment"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Chat & Calls
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center p-15 pl-30 pr-30 right-icon right-icon-3">
+                <div class="pr-10">
+                    <a href="# " class="font-20">
+                        <i class="fa-solid fa-gear"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>
+                            Settings
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- main area -->
+        <div class="main-area">
+            <div class="container">
+                <div class="row row-gap-10">
+                    <div class="col-12 d-flex justify-content-center align-items-center ">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <div class="col-8 d-flex align-items-center">
+                                <div class="avatar pr-10 col-3 text-center ">
+                                    <div class="">
+                                        <img src="images/photo.jpeg" alt="" class="photo-2 photo ">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <h5>
+                                        Good Morning!
+                                    </h5>
+                                    <h1>
+                                        Dr. Alice
+                                    </h1>
+                                    <p>
+                                        "If we want users to like our software, we should design it to behave like a
+                                        likable person: respectful, generous, and helpful" - Alan Cooper
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-4 d-flex align-items-center justify-content-end">
+                                <div class="pr-10 ">
+                                    <a href="#" class="btn color-w bg-text ">
+                                        <i class="fa-solid fa-plus"></i>
+                                        Add Patient
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center ">
+                        <div class="col-3  d-flex align-items-center layout ">
+                            <div class="col-3 p-5 text-center">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <h2>
+                                        1360
+                                    </h2>
+                                </div>
+                                <div>
+                                    Patients
+                                </div>
+                            </div>
+                            <div class="col-3 ">
+                                <div class="font-30">
+                                    <i class="fa-solid fa-chart-simple "></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3  d-flex align-items-center layout">
+                            <div class="col-3 p-5 text-center">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <h2>
+                                       20
+                                    </h2>
+                                </div>
+                                <div>
+                                    Active Staff
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="font-30">
+                                    <i class="fa-solid fa-chart-simple "></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3  d-flex align-items-center layout">
+                            <div class="col-3 p-5 text-center">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <h2>
+                                        1360
+                                    </h2>
+                                </div>
+                                <div>
+                                    + 75 Rooms
+                                </div>    
+                            </div>
+                            <div class="col-3">
+                                <div class="font-30">
+                                    <i class="fa-solid fa-chart-simple "></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3  d-flex align-items-center layout">   
+                            <div class="col-3 p-5 text-center">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <h2>
+                                        820
+                                    </h2>
+                                </div>
+                                <div>
+                                    Bookings
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="font-30">
+                                    <i class="fa-solid fa-chart-simple "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="col-6 layout ">
+
+                            <div id="chart">
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-3 layout">
+                            <div class="">
+                                <div class="d-flex align-items-center justify-content-evenly">
+                                    <div class="avatar pr-10 pt-10 pb-10 text-center ">
+                                        <div class="">
+                                            <img src="images/photo.jpeg" alt="" class="w-100 photo photo-3">
+                                        </div>
+                                    </div>
+                                    <div class="pl-10 pt-10 pb-10">
+                                        <div>
+                                            <span class="font-18">
+                                                Alex Mozillia
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                11 Years old
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="#">
+                                            <i class="fa-solid fa-arrow-right fa-rotate-by"
+                                                style="--fa-rotate-angle: -35deg;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pl-20 pt-10 pb-10">
+                                    <div>
+                                        <span>
+                                            Observation:
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            High fever and low cough.
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="p-15">
+                                    <div class="font-30">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <div class="font-20">
+                                        22
+                                    </div>
+                                    <div>
+                                        Stable Patient
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-evenly">
+                                    <div class="avatar pr-10  text-center ">
+                                        <div class="">
+                                            <a href="#" class="font-20">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="pl-10">
+                                        <div>
+                                            <span class="font-18">
+                                                Alex Mozillia
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                11 Years old
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="font-20">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 layout">
+                            <div id="datepicker" class=""></div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center ">
+                        <div class="col-9 d-flex justify-content-center align-items-center ">
+                            <div class="col-6 d-flex justify-content-center align-items-center">
+                                <div class="col-4 layout  layout-color1">
+                                    <div class="p-15">
+                                        <div class="font-30">
+                                            <i class="fa-regular fa-heart  layout layout-color4"></i>
+                                        </div>
+                                        <div class="font-20">
+                                            22
+                                        </div>
+                                        <div>
+                                            Stable Patient
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 layout layout-color2">
+                                    <div class="p-15">
+                                        <div class="font-30  ">
+                                            <i class="fa-regular fa-heart layout layout-color5" ></i>
+                                        </div>
+                                        <div class="font-20">
+                                            22
+                                        </div>
+                                        <div>
+                                            Stable Patient
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 layout layout-color3">
+                                    <div class="p-15">
+                                        <div class="font-30  ">
+                                            <i class="fa-solid fa-heart-pulse layout layout-color6"></i>
+                                        </div>
+                                        <div class="font-20">
+                                            22
+                                        </div>
+                                        <div>
+                                            Stable Patient
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 layout layout-color7">
+                                <div class="p-10">
+                                    <h6 class="font-18">
+                                        <i class="fa-regular fa-user"></i>
+                                        Patient Age Range
+                                    </h6>
+                                </div>
+                                <div class="d-flex  align-items-center  p-10">
+                                    <div class="-30">
+                                        <div class="font-25">
+                                            21
+                                        </div>
+                                        <div>
+                                            25+ Years
+                                        </div>
+                                    </div>
+                                    <div class="pl-20">
+                                        <div class="font-25">
+                                            8
+                                        </div>
+                                        <div>
+                                            16-30 Years
+                                        </div>
+                                    </div>
+                                    <div class="pl-20">
+                                        <div class="font-25">
+                                            5
+                                        </div>
+                                        <div>
+                                            0-15 Years
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 color-w p-30 layout pt-40">
+                                <!-- 1 line  -->
+                                <div>
+                                    <div class="pb-30">
+                                        <span>
+                                            Patient Appointments
+                                        </span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <span>
+                                                ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Schedule
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Patient
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Contact info
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Action
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 line -->
+                                <div class="p-10 profile-frame">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>
+                                                500ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                3:30 PM
+                                            </div>
+                                            <div class="main-color">
+                                                9 June 2024
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class=" p-5">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar pr-10">
+                                                        <div class="p-1">
+                                                            <img src="images/photo.jpeg" alt="" class="photo ">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="color-w">
+                                                            Jr. Chen Li
+                                                        </div>
+                                                        <div class="font-14 main-color">
+                                                            United Kingdom
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                cheli@sales..core.com
+                                            </div>
+                                            <div class="main-color">
+                                                +44 8466585****1154
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="main-btn ">
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div class="pos-rel">
+                                            <div class="dot ">
+                                                <span class="font-25">...</span>
+                                            </div>
+                                            <div class="d-none dot-menu pos-abs pr-25 pl-25">
+                                                <div class="p-10">
+                                                    Edit
+                                                </div>
+                                                <div class="p-10">
+                                                    Move
+                                                </div>
+                                                <div class="p-10">
+                                                    Delete
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 line -->
+                                <div class="p-10 profile-frame">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>
+                                                500ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                3:30 PM
+                                            </div>
+                                            <div class="main-color">
+                                                9 June 2024
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class=" p-5">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar pr-10">
+                                                        <div class="p-1">
+                                                            <img src="images/photo.jpeg" alt="" class="photo ">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="color-w">
+                                                            Jr. Chen Li
+                                                        </div>
+                                                        <div class="font-14 main-color">
+                                                            United Kingdom
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                cheli@sales..core.com
+                                            </div>
+                                            <div class="main-color">
+                                                +44 8466585****1154
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="main-btn ">
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div class="pos-rel">
+                                            <div class="dot ">
+                                                <span class="font-25">...</span>
+                                            </div>
+                                            <div class="d-none dot-menu pos-abs pr-25 pl-25">
+                                                <div class="p-10">
+                                                    Edit
+                                                </div>
+                                                <div class="p-10">
+                                                    Move
+                                                </div>
+                                                <div class="p-10">
+                                                    Delete
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 line -->
+                                <div class="p-10 profile-frame">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>
+                                                500ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                3:30 PM
+                                            </div>
+                                            <div class="main-color">
+                                                9 June 2024
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class=" p-5">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar pr-10">
+                                                        <div class="p-1">
+                                                            <img src="images/photo.jpeg" alt="" class="photo ">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="color-w">
+                                                            Jr. Chen Li
+                                                        </div>
+                                                        <div class="font-14 main-color">
+                                                            United Kingdom
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                cheli@sales..core.com
+                                            </div>
+                                            <div class="main-color">
+                                                +44 8466585****1154
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="main-btn ">
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div class="pos-rel">
+                                            <div class="dot ">
+                                                <span class="font-25">...</span>
+                                            </div>
+                                            <div class="d-none dot-menu pos-abs pr-25 pl-25">
+                                                <div class="p-10">
+                                                    Edit
+                                                </div>
+                                                <div class="p-10">
+                                                    Move
+                                                </div>
+                                                <div class="p-10">
+                                                    Delete
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 line -->
+                                <div class="p-10 profile-frame">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>
+                                                500ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                3:30 PM
+                                            </div>
+                                            <div class="main-color">
+                                                9 June 2024
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class=" p-5">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar pr-10">
+                                                        <div class="p-1">
+                                                            <img src="images/photo.jpeg" alt="" class="photo ">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="color-w">
+                                                            Jr. Chen Li
+                                                        </div>
+                                                        <div class="font-14 main-color">
+                                                            United Kingdom
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                cheli@sales..core.com
+                                            </div>
+                                            <div class="main-color">
+                                                +44 8466585****1154
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="main-btn ">
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div class="pos-rel">
+                                            <div class="dot ">
+                                                <span class="font-25">...</span>
+                                            </div>
+                                            <div class="d-none dot-menu pos-abs pr-25 pl-25">
+                                                <div class="p-10">
+                                                    Edit
+                                                </div>
+                                                <div class="p-10">
+                                                    Move
+                                                </div>
+                                                <div class="p-10">
+                                                    Delete
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 line -->
+                                <div class="p-10 profile-frame">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>
+                                                500ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                3:30 PM
+                                            </div>
+                                            <div class="main-color">
+                                                9 June 2024
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class=" p-5">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar pr-10">
+                                                        <div class="p-1">
+                                                            <img src="images/photo.jpeg" alt="" class="photo ">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="color-w">
+                                                            Jr. Chen Li
+                                                        </div>
+                                                        <div class="font-14 main-color">
+                                                            United Kingdom
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                cheli@sales..core.com
+                                            </div>
+                                            <div class="main-color">
+                                                +44 8466585****1154
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="main-btn ">
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div class="pos-rel">
+                                            <div class="dot ">
+                                                <span class="font-25">...</span>
+                                            </div>
+                                            <div class="d-none dot-menu pos-abs pr-25 pl-25">
+                                                <div class="p-10">
+                                                    Edit
+                                                </div>
+                                                <div class="p-10">
+                                                    Move
+                                                </div>
+                                                <div class="p-10">
+                                                    Delete
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 line -->
+                                <div class="p-10 profile-frame">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <span>
+                                                500ID
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                3:30 PM
+                                            </div>
+                                            <div class="main-color">
+                                                9 June 2024
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class=" p-5">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar pr-10">
+                                                        <div class="p-1">
+                                                            <img src="images/photo.jpeg" alt="" class="photo ">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="color-w">
+                                                            Jr. Chen Li
+                                                        </div>
+                                                        <div class="font-14 main-color">
+                                                            United Kingdom
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                cheli@sales..core.com
+                                            </div>
+                                            <div class="main-color">
+                                                +44 8466585****1154
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="main-btn ">
+                                                Status
+                                            </span>
+                                        </div>
+                                        <div class="pos-rel">
+                                            <div class="dot ">
+                                                <span class="font-25">...</span>
+                                            </div>
+                                            <div class="d-none dot-menu pos-abs pr-25 pl-25">
+                                                <div class="p-10">
+                                                    Edit
+                                                </div>
+                                                <div class="p-10">
+                                                    Move
+                                                </div>
+                                                <div class="p-10">
+                                                    Delete
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 layout">
+                            <div id="mycal1" class="w-100">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- Calendar -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script>
+        $( "#datepicker" ).datepicker();
+        </script>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
